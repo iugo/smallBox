@@ -3,6 +3,9 @@
     background-position: center -70px;
     background-repeat: no-repeat
 }
+.page-research-join-2 {
+    background-position-y: -400px;
+}
 .page-research-join .site-main {
     background-image: url(research-bottom-bg.jpg);
     background-position: center bottom;
@@ -10,7 +13,7 @@
 }
 .page-research-join .site-main .container {
     margin-top: 50px;
-    padding-bottom: 150px
+    padding-bottom: 50px
 }
 .page-research-join .research-join-jumbotron {
     background-color: transparent;
@@ -108,7 +111,7 @@
     border-radius: 48px;
     font-size: 36px;
     font-weight: lighter;
-    background-color: #03a9f4;
+    background-color: #cf2b21;
     color: #fff;
     -webkit-font-smoothing: subpixel-antialiased
 }
