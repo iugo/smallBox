@@ -6,6 +6,12 @@
 .page-research-join-2 {
     background-position-y: -400px;
 }
+.page-research-join h3 {
+    font-size: 40px;
+}
+.page-research-join .btn {
+    margin: 20px 0;
+}
 .page-research-join .site-main {
     background-image: url(images/research-bottom-bg.jpg);
     background-position: center bottom;
@@ -14,6 +20,9 @@
 .page-research-join .site-main .container {
     margin-top: 50px;
     padding-bottom: 50px
+}
+.page-research-join .site-main .container-page {
+    margin-bottom: -100px;
 }
 .page-research-join .research-join-jumbotron {
     background-color: transparent;
@@ -26,25 +35,18 @@
 }
 .page-research-join .research-join-jumbotron img {
     width: 100%;
-    max-width: 513px;
+    max-width: 700px;
     margin-bottom: 40px
 }
 .page-research-join .research-join-jumbotron .research-description {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 10px auto;
     margin-bottom: 50px;
-    text-align: center;
-    font-size: 16px;
-    color: #777;
-    line-height: 32px;
-    letter-spacing: 1px
-}
-.page-research-join .research-join-jumbotron .research-learn-more {
-    margin: 42px auto;
     max-width: 600px;
-    font-size: 14px;
-    letter-spacing: 1px;
-    color: #777
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    line-height: 30px;
+    letter-spacing: 1px
 }
 .page-research-join .research-join-jumbotron .arrow-down {
     height: 40px;
