@@ -130,8 +130,7 @@
 }
 @media (max-width: 1200px) {
     .page-research-join .research-description, .page-research-join .research-join-jumbotron .research-description, .page-research-join .research-process-desc {
-        margin-left: 0;
-        margin-right: 0
+        margin: 10px auto;
    }
 }
 @media (max-width: 992px) {
