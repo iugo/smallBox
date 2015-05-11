@@ -8,9 +8,7 @@
 }
 .page-research-join h3 {
     font-size: 40px;
-}
-.page-research-join .btn {
-    margin: 20px 0;
+    margin-bottom: 25px;
 }
 .page-research-join .site-main {
     background-image: url(images/research-bottom-bg.jpg);
