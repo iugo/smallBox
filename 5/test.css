@@ -1,0 +1,151 @@
+.page-new {
+    background-color: #e8e9eb
+}
+.page-new .feature {
+    border-top: 1px solid #bbb
+}
+.page-new .feature .feature-content {
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    background-color: #f5f6f7;
+    -webkit-transition: all .3s cubic-bezier(0.7, 0, .3, 1) 0;
+    transition: all .3s cubic-bezier(0.7, 0, .3, 1) 0;
+    -moz-transition: all .3s ease-in-out
+}
+.page-new .feature .feature-content .feature-content-wrapper {
+    width: 100%;
+    max-width: 740px;
+    padding: 50px 20px;
+    margin: 0 auto
+}
+.page-new .feature .feature-title {
+    position: relative;
+    height: 100px;
+    padding: 25px 0;
+    background-color: #eee; /* 修改 */
+    cursor: pointer
+}
+.page-new .feature .feature-title:hover {
+    background-color: #fff; /* 修改 */
+}
+.page-new .feature .feature-title h2 {
+    margin: 0;
+    letter-spacing: 2px;
+    color: #111
+}
+.page-new .feature .feature-title p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #a6a6a6
+}
+.page-new .feature .feature-title .content-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1040px;
+    padding: 0 40px;
+    margin: 0 auto
+}
+.page-new .feature .feature-title .arrow {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    height: 20px;
+    width: 12px;
+    background-image: url(https://dn-st.b0.upaiyun.com/site/v0.4.x/images/new/arrow.png);
+    background-size: 12px 20px;
+    transition: all .25s;
+    -webkit-transition: all .25s
+}
+.page-new .feature .feature-title:after {
+    display: none;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .02)
+}
+.page-new .feature .feature-title:hover:after {
+    display: block
+}
+.page-new .feature .feature-content-wrapper h3 {
+    padding: 20px 0 0;
+    font-size: 24px;
+    color: #383838
+}
+.page-new .feature .feature-content-wrapper p {
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 40px;
+    line-height: 26px
+}
+.page-new .feature .feature-content-wrapper p>img {
+    width: 100%;
+    max-width: 660px;
+    margin-bottom: 30px
+}
+.page-new .feature.open .feature-content {
+    height: auto;
+    max-height: 10000px;
+    visibility: visible
+}
+.page-new .feature.open .feature-title .arrow {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg)
+}
+.page-new .ias-trigger, .page-new .loading-indicator {
+    padding-top: 40px
+}
+.page-new .new-slogan {
+    height: 250px;
+    padding: 70px 0 60px;
+    background-color: #e8e9eb
+}
+.page-new .new-slogan .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto
+}
+.page-new .new-slogan h2 {
+    font-size: 32px;
+    text-align: center
+}
+.page-new .new-slogan .signature {
+    float: right;
+    height: 50px;
+    width: 162px;
+    margin-right: 200px;
+    margin-top: 20px;
+    background-image: url(https://dn-st.b0.upaiyun.com/site/v0.4.x/images/new/signature.png);
+    background-size: 162px 50px
+}
+@media (max-width: 768px) {
+    .page-new .feature .feature-item .feature-images {
+        padding-right: 40px
+   }
+   .page-new .feature .feature-title .arrow {
+       right: 15px
+  }
+  .page-new .new-slogan .signature {
+      float: none;
+      margin: 20px auto
+ }
+}
+@media (max-width: 480px) {
+    .page-new .feature .feature-item .feature-images img {
+        max-width: 290px
+   }
+   .page-new .feature .feature-title h2 {
+       font-size: 22px
+  }
+  .page-new .feature .feature-title .content-wrapper {
+      padding: 0 30px 0 15px
+ }
+ .page-new .new-slogan h2 {
+     font-size: 22px
+}
+}
