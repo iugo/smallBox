@@ -1,5 +1,5 @@
 .page-research-join {
-    background-image: url(research-top-bg.jpg);
+    background-image: url(images/research-top-bg.jpg);
     background-position: center -70px;
     background-repeat: no-repeat
 }
@@ -7,7 +7,7 @@
     background-position-y: -400px;
 }
 .page-research-join .site-main {
-    background-image: url(research-bottom-bg.jpg);
+    background-image: url(images/research-bottom-bg.jpg);
     background-position: center bottom;
     background-repeat: no-repeat
 }
@@ -40,20 +40,21 @@
     letter-spacing: 1px
 }
 .page-research-join .research-join-jumbotron .research-learn-more {
-    margin-top: 42px;
+    margin: 42px auto;
+    max-width: 600px;
     font-size: 14px;
     letter-spacing: 1px;
     color: #777
 }
 .page-research-join .research-join-jumbotron .arrow-down {
     height: 40px;
-    background-image: url(research-arrow-down.jpg);
+    background-image: url(images/research-arrow-down.jpg);
     background-repeat: no-repeat;
     background-position: center
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .page-research-join .research-join-jumbotron .arrow-down {
-        background-image: url(research-arrow-down@2x.jpg);
+        background-image: url(images/research-arrow-down@2x.jpg);
         background-size: 118px 30px
    }
 }
@@ -126,146 +127,6 @@
 }
 .page-research-join .research-footer-title {
     text-indent: -9999px
-}
-.page-research-join .modal-window .modal-back {
-    min-height: 1000px
-}
-@media (max-width: 768px) {
-    .page-research-join .modal-window .modal-back {
-        min-height: 1350px
-   }
-}
-@media (max-width: 480px) {
-    .page-research-join .modal-window .modal-back {
-        min-height: 1220px
-   }
-}
-.page-research-join .modal-window .modal-card {
-    top: 0;
-    width: 600px;
-    padding: 0;
-    margin-left: -300px;
-    margin-top: 70px
-}
-@media (max-width: 480px) {
-    .page-research-join .modal-window .modal-card {
-        left: 50%;
-        width: 300px;
-        margin: 50px auto 50px -150px
-   }
-}
-.page-research-join .modal-window .modal-card .modal-header {
-    position: relative;
-    height: 200px;
-    padding: 15px 25px;
-    border-top-right-radius: 2px;
-    border-top-left-radius: 2px;
-    background: url(research-join-header.jpg) 0 0/cover #56b7e3;
-    line-height: 30px;
-    font-size: 20px;
-    color: #fff
-}
-@media (max-width: 480px) {
-    .page-research-join .modal-window .modal-card .modal-header {
-        height: 60px
-   }
-}
-.page-research-join .modal-window .modal-card .modal-header .title {
-    float: left
-}
-.page-research-join .modal-window .modal-card .modal-header .avatar {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 140px;
-    height: 140px;
-    margin-left: -70px;
-    margin-top: -70px;
-    border: 4px solid #fff;
-    border-radius: 140px;
-    background-image: url(research-join-avatar.jpg)
-}
-@media (max-width: 480px) {
-    .page-research-join .modal-window .modal-card .modal-header .avatar {
-        display: none
-   }
-}
-.page-research-join .modal-window .modal-card .modal-header .close-handler {
-    position: static;
-    float: right;
-    font-size: 18px;
-    color: #fff;
-    -webkit-transition: text-shadow 218ms;
-    -o-transition: text-shadow 218ms;
-    transition: text-shadow 218ms
-}
-.page-research-join .modal-window .modal-card .modal-header .close-handler:hover {
-    text-shadow: 0 0 3px rgba(255, 255, 255, .7)
-}
-.page-research-join .modal-window .modal-card .form-group {
-    margin-bottom: 20px
-}
-.page-research-join .modal-window .modal-card .form-label {
-    font-size: 18px;
-    color: #888
-}
-.page-research-join .modal-card .research-form {
-    padding: 20px
-}
-.page-research-join .modal-card .research-form: : -webkit-input-placeholder {
-    color: #bbb;
-    letter-spacing: 1px
-}
-.page-research-join .modal-card .research-form: : -moz-placeholder {
-    color: #bbb;
-    letter-spacing: 1px
-}
-.page-research-join .modal-card .research-form .row {
-    margin-left: -10px;
-    margin-right: -10px
-}
-.page-research-join .modal-card .research-form[class*=col-] {
-    padding-left: 10px;
-    padding-right: 10px
-}
-.page-research-join .modal-card .research-form .subtype {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 20px;
-    line-height: 90px;
-    border: 2px solid #bbb;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 22px;
-    color: #bbb;
-    cursor: pointer;
-    -webkit-transition: all 350ms;
-    -o-transition: all 350ms;
-    transition: all 350ms
-}
-.page-research-join .modal-card .research-form .subtype:hover {
-    border-color: #777;
-    color: #777
-}
-.page-research-join .modal-card .research-form .subtype.active {
-    border-color: #56b7e3;
-    color: #56b7e3
-}
-.page-research-join .modal-card .research-form .subtype .icon {
-    position: relative;
-    top: 3px;
-    font-size: 30px
-}
-.page-research-join .modal-card .research-form .form-group.has-value .form-control, .page-research-join .modal-card .research-form .form-group.has-value .input-group-addon, .page-research-join .modal-card .research-form .input-group.has-value .form-control, .page-research-join .modal-card .research-form .input-group.has-value .input-group-addon {
-    border-color: #a6a6a6
-}
-.page-research-join .modal-card .research-form .input-group-addon {
-    background-color: #FFF;
-    color: #666
-}
-.page-research-join .modal-card .research-form .confirm-handler {
-    width: 100%;
-    padding: 10px
 }
 @media (max-width: 1200px) {
     .page-research-join .research-description, .page-research-join .research-join-jumbotron .research-description, .page-research-join .research-process-desc {
