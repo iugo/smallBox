@@ -59,7 +59,13 @@
    }
 }
 .page-research-join .research-process {
-    padding-top: 70px;
+    padding: 50px 0 70px
+}
+.page-research-join .research-process .col-md-7 {
+    padding-top: 40px
+}
+.page-research-join .research-process .col-md-5 {
+    text-align: center
 }
 .page-research-join .research-process-title {
     margin: 4px 4px 4px 60px;
